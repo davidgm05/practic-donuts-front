@@ -1,0 +1,154 @@
+#root {
+  height: 95vh;
+  width: 100vw;
+  padding-top: 50px;
+  text-align: center;
+  background-image: url("../public/background.jpg");
+  background-size: contain;
+  
+}
+
+.buttons-pink{
+  background-color: #ff69ee;
+  color: white;
+}
+
+input{
+  background-color: #ff69ee;
+  color: white;
+  border: none;
+  
+  height: 25px;
+  border-radius: 5px;
+}
+
+input::placeholder{
+  color: white;
+}
+
+.update-user{
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  height: 500px;
+}
+
+.container-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-info p {
+  font-weight: 700;
+  background-color: rgb(177, 100, 1);
+  padding: 0px 10px;
+  border-radius: 10px;
+  color: white;
+}
+
+.container-info p:last-child {
+  width: 30px;
+}
+
+.crearUser{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.donut {
+  width: 550px;
+  height: 550px;
+  border-radius: 50%;
+  background-color: #984200;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+  z-index: 1;
+}
+
+.glaseado-donut {
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+  z-index: 3;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("../public/sprinkles.png");
+  z-index: 3;
+}
+
+.borde-interior-donut {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  background-color: #984200;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 0;
+}
+
+.hueco-donut {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-color: #fecce7;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.glassed-buttons {
+  position: absolute;
+  bottom: 60px;
+  display: flex;
+  gap: 20px;
+}
+
+.glassed-buttons button {
+  width: 100px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(177, 100, 1);
+  color: white;
+}
+
+.donut-container {
+  width: 100%;
+}
+
+.container-donuts {
+  display: flex;
+  overflow-x: auto;
+  width: 100vw;
+  padding-bottom: 150px;
+  padding-top: 100px;
+}
+
+.button-volver{
+  position: absolute;
+  left: 40px;
+  background-color: #ff69ee;
+  color: white;
+}
+
+.model-3d{
+  margin-left: 200px;
+}
+
+.donut-contain{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
